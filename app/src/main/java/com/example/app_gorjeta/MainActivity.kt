@@ -1,18 +1,14 @@
 package com.example.app_gorjeta
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.app_gorjeta.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity : AppCompatActivity() {
 
@@ -96,6 +92,10 @@ class MainActivity : AppCompatActivity() {
                     binding.rbOptionThree.isChecked = false
                     binding.rbOptionOne.isChecked = false
                     binding.rbOptionTwo.isChecked = false
+
+
+                    val intent = Intent(this, SummaryActivity::class.java)
+                        startActivity(intent)
                 }
         }
     }
