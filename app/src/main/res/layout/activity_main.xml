@@ -46,24 +46,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <com.google.android.material.textfield.TextInputLayout
+    <Spinner
         android:id="@+id/til_number_of_people"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_total">
+        app:layout_constraintTop_toBottomOf="@+id/til_total" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tie_num_people"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="Digite o número de pessoas na mesa"
-            android:inputType="number"
-            android:maxLength="2" />
 
-    </com.google.android.material.textfield.TextInputLayout>
 
     <RadioGroup
         android:id="@+id/rg_percentage"
