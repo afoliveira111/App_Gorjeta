@@ -90,19 +90,21 @@ class MainActivity : AppCompatActivity() {
                     putExtra("numPeople", numOfPeopleSelected)
                     putExtra("percentage", percentage)
                     putExtra("totalAmount", totalWithTips)
-
                 }
+                clean()
                 startActivity(intent)
             }
-
-            binding.btnClean.setOnClickListener {
-                binding.tieTotal.setText("")
-                binding.rbOptionThree.isChecked = false
-                binding.rbOptionOne.isChecked = false
-                binding.rbOptionTwo.isChecked = false
-
-
-            }
         }
+
+        binding.btnClean.setOnClickListener {
+            clean()
+        }
+    }
+
+        private fun clean() {
+              binding.tieTotal.setText("")
+              binding.rbOptionThree.isChecked = false
+              binding.rbOptionOne.isChecked = false
+              binding.rbOptionTwo.isChecked = false
     }
 }
