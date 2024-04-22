@@ -16,5 +16,11 @@ class SummaryActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
+        val totalTable = intent.getFloatExtra("totalTable", 0.0f)
+        val numPeople = intent.getIntExtra("numPeople", 0)
+        val percentage = intent.getIntExtra("percentage", 0)
+        val totalAmount = intent.getFloatExtra("totalAmount", 0.0f)
     }
 }
