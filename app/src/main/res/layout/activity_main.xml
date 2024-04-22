@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Tips Calculator"
+        android:layout_margin="20dp"
+        android:text="Calculadora"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Preencha os campos abaixo para realizar o calculo da sua conta"
+        android:text="Preencha os campos abaixo para realizar o cálculo da sua conta:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_title" />
@@ -40,7 +41,7 @@
             android:id="@+id/tie_total"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Digite valor total da conta"
+            android:hint="Digite o valor total da conta"
             android:inputType="numberDecimal" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -98,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
-        android:text="limpar"
+        android:text="Limpar"
         app:layout_constraintEnd_toStartOf="@+id/vertical_guideline"
         app:layout_constraintStart_toStartOf="@+id/spinner_number_of_people"
         app:layout_constraintTop_toBottomOf="@id/rg_percentage" />
@@ -116,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
-        android:text="calcular"
+        android:text="Calcular"
         app:layout_constraintEnd_toEndOf="@+id/spinner_number_of_people"
         app:layout_constraintStart_toEndOf="@+id/vertical_guideline"
         app:layout_constraintTop_toBottomOf="@+id/rg_percentage" />

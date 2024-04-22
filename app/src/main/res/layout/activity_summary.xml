@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Summary"
+        android:text="Resumo"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Veja abaixo o resumo da sua conta"
+        android:text="Veja abaixo o resumo da sua conta:"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="total table"
+        android:text="Total da Mesa"
         app:layout_constraintStart_toStartOf="@+id/tv_subtitle"
         app:layout_constraintTop_toBottomOf="@+id/tv_subtitle" />
 
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="num of people:"
+        android:text="Número de pessoas:"
         app:layout_constraintStart_toStartOf="@+id/tv_total_table_label"
         app:layout_constraintTop_toBottomOf="@+id/tv_total_table_label" />
 
@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="percentage:"
+        android:text="Porcentagem:"
         app:layout_constraintStart_toStartOf="@+id/tv_num_people_label"
         app:layout_constraintTop_toBottomOf="@+id/tv_num_people_label" />
 
@@ -98,7 +98,7 @@
         android:id="@+id/tv_total_amount_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TOTAL:"
+        android:text="TOTAL :"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="@+id/tv_num_people_label"
         app:layout_constraintTop_toBottomOf="@+id/separator" />
