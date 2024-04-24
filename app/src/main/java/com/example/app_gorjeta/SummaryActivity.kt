@@ -34,7 +34,7 @@ class SummaryActivity : AppCompatActivity() {
         binding.tvTotalTable.text = totalTable.toString()
         binding.tvNumPeopleTable.text = numPeople.toString()
 
-        binding.btnBack.setOnClickListener{
+        binding.btnBack.setOnClickListener {
             finish()
         }
 
